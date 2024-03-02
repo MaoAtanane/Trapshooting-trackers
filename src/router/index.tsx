@@ -1,14 +1,15 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "@/pages/Home";
 import Login from "@/pages/Login";
+import RoutesEnum from "@/router/RoutesEnum.tsx";
 
 const routes = createBrowserRouter([
   {
-    path: "/",
+    path: RoutesEnum.HOME,
     element: <Home />,
   },
   {
-    path: "/login",
+    path: RoutesEnum.LOGIN,
     element: <Login />,
   },
 ]);

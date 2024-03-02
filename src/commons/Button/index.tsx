@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 
 type ButtonProps = {
   children: string | null | ReactNode;
-  onClick: () => void;
+  onClick?: () => void;
   variant?: "primary" | "secondary" | "black";
 };
 export default function Button({
