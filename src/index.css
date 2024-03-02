@@ -1,0 +1,30 @@
+html {
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: linear-gradient(
+    to right top,
+    #845ec2,
+    #b45cb6,
+    #d65fa5,
+    #ed6993,
+    #fa7a82,
+    #ff8977,
+    #ff9a6e,
+    #ffac69,
+    #ffbe66,
+    #ffd166,
+    #ffe469,
+    #f9f871
+  );
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
