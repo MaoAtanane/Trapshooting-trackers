@@ -1,9 +1,12 @@
 import Router from "@/router";
+import GlobalContextProvider from "@/globalContext";
 
 function App() {
   return (
     <>
-      <Router />
+      <GlobalContextProvider>
+        <Router />
+      </GlobalContextProvider>
     </>
   );
 }

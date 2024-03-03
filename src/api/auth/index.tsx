@@ -8,9 +8,9 @@ export const loginWithUsernameAndPassword = async ({
   email: string;
   password: string;
 }) => {
-  try {
-    return await signInWithEmailAndPassword(auth, email, password);
-  } catch (error) {
-    throw error;
-  }
+  return await signInWithEmailAndPassword(auth, email, password);
+};
+
+export const logout = async () => {
+  return await auth.signOut();
 };
